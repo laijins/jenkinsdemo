@@ -40,7 +40,7 @@
 			</plugin>
 		</plugins>
 	</build>
-<repositories>
+<!--<repositories>
         <repository>
             <id>ljs-springboot</id>
             <url>http://192.168.253.15:8081/repository/ljs-springboot/</url>
@@ -52,6 +52,6 @@
             </snapshots>
         </repository>
        
-    </repositories>
+    </repositories> -->
 
 </project>
