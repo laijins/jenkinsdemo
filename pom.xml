@@ -14,7 +14,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.9.RELEASE</version>
+		<version>2.1.6.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
@@ -40,6 +40,18 @@
 			</plugin>
 		</plugins>
 	</build>
-
+<repositories>
+        <repository>
+            <id>ljs-springboot</id>
+            <url>http://192.168.253.15:8081/repository/ljs-springboot/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+	    <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+       
+    </repositories>
 
 </project>
